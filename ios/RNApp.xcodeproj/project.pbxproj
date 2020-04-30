@@ -23,7 +23,7 @@
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppTests.m; sourceTree = "<group>"; };
-		0D3D9BD6245ABFD80014316E /* prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prod.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D3D9BD6245ABFD80014316E /* RNApp - prod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNApp - prod.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDE777EF0F48B988476BCC3 /* Pods-prod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-prod.debug.xcconfig"; path = "Target Support Files/Pods-prod/Pods-prod.debug.xcconfig"; sourceTree = "<group>"; };
 		0F7A38A01D1494D8CFF278A7 /* Pods-RNApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNApp-tvOS/Pods-RNApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* RNApp - DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNApp - DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* RNApp - DEV.app */,
-				0D3D9BD6245ABFD80014316E /* prod.app */,
+				0D3D9BD6245ABFD80014316E /* RNApp - prod.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,7 +189,7 @@
 			);
 			name = prod;
 			productName = RNApp;
-			productReference = 0D3D9BD6245ABFD80014316E /* prod.app */;
+			productReference = 0D3D9BD6245ABFD80014316E /* RNApp - prod.app */;
 			productType = "com.apple.product-type.application";
 		};
 		13B07F861A680F5B00A75B9A /* dev */ = {
@@ -571,7 +571,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.harrybui.rnapp.prod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RNApp - prod";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -594,7 +594,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.harrybui.rnapp.prod;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "RNApp - prod";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

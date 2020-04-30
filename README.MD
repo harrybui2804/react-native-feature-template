@@ -46,23 +46,23 @@ React Native Feature Template is a starting point for React Native application. 
 3. Remove `.git` folder, `rm -rf .git`
 4. Use [React Native Rename](https://github.com/junedomingo/react-native-rename) to update project name `$ npx react-native-rename <newName>`
 5. Run `yarn install` to install dependencies
-
-7) Connect a mobile device to your development machine
-
-8) Change appId android and bundleID ios
+6. Config environment for android and ios
 - On Android: 
     - Open `android/app/build.gradle`
     - Edit in `productFlavors` your applicationId and resValue app_name
 - On iOS:
     - Open `ios/YourReactProject.xcworkspace` in Xcode
-    - select target `dev` and `prod` and change your BundleID and Display Name
-8) Run the test application:
-- Run `yarn set-env-dev` or `yarn set-env-prod`
+    - Select target `dev` and `prod` and change your BundleID and Display Name
+7. Config api endpoint and other environment
+- Open `__env__/dev/env.js` and `__env__/prod/env.js`
+- Edit your api endpoint and other environment
+- Add other file as google-services.json and GoogleService-Info.plist to `dev` or `prod` and edit `list` in `__env/index.js`
+9. Run the application:
+- Set environment you config in `__env__` folder
+    - Run `yarn set-env-dev` or `yarn set-env-prod`
 - On Android:
   - Run `yarn run-a-dev` or `yarn run-a-prod`
 - On iOS:
   - Run `yarn run-i-dev` or `yarn run-i-prod`
 
 9. Enjoy!!!
-
-## Thank Victor K Varghese
